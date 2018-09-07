@@ -2,9 +2,10 @@ package articles
 
 import (
 	"errors"
-	"github.com/wangzitian0/golang-gin-starter-kit/common"
-	"github.com/wangzitian0/golang-gin-starter-kit/users"
-	"gopkg.in/gin-gonic/gin.v1"
+	"github.com/magic007/golang-gin-realworld/common"
+	"github.com/magic007/golang-gin-realworld/users"
+	//  "gopkg.in/gin-gonic/gin.v1"
+	"github.com/gin-gonic/gin"
 	"net/http"
 	"strconv"
 )

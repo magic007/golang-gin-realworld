@@ -3,12 +3,13 @@ package main
 import (
 	"fmt"
 
-	"gopkg.in/gin-gonic/gin.v1"
+	//  "gopkg.in/gin-gonic/gin.v1"
+	"github.com/gin-gonic/gin"
 
 	"github.com/jinzhu/gorm"
-	"github.com/wangzitian0/golang-gin-starter-kit/articles"
-	"github.com/wangzitian0/golang-gin-starter-kit/common"
-	"github.com/wangzitian0/golang-gin-starter-kit/users"
+	"github.com/magic007/golang-gin-realworld/articles"
+	"github.com/magic007/golang-gin-realworld/common"
+	"github.com/magic007/golang-gin-realworld/users"
 )
 
 func Migrate(db *gorm.DB) {
